@@ -1,0 +1,26 @@
+{
+  "name": "@treehouse/server",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/main.ts",
+    "dev": "node --watch src/main.ts",
+    "typecheck": "tsc -p ."
+  },
+  "dependencies": {
+    "@treehouse/kit": "workspace:*",
+    "ws": "8.22.0",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@types/ws": "8.18.2"
+  },
+  "exports": {
+    "./auth": "./src/auth.ts",
+    "./connection": "./src/connection.ts",
+    "./family-schema": "./src/family-schema.ts",
+    "./games": "./src/games.ts",
+    "./login-page": "./src/login-page.ts"
+  }
+}

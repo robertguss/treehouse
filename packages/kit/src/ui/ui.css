@@ -1,0 +1,126 @@
+.th-ui {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  font-family: ui-rounded, "SF Pro Rounded", system-ui, sans-serif;
+  color: #2d3b23;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.th-ui [data-ui],
+.th-ui button {
+  pointer-events: auto;
+}
+
+.th-button {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  border: none;
+  border-radius: 24px;
+  background: #fffffff0;
+  box-shadow: 0 5px 0 #0002;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  touch-action: manipulation;
+  transition: transform 0.08s;
+}
+
+.th-button:active:not(:disabled) {
+  transform: translateY(3px);
+  box-shadow: 0 2px 0 #0002;
+}
+
+.th-button:disabled {
+  opacity: 0.45;
+}
+
+.th-button.th-active {
+  background: #ffe27a;
+  outline: 4px solid #f2b705;
+}
+
+.th-button-small {
+  width: 56px;
+  height: 56px;
+  font-size: 28px;
+  border-radius: 18px;
+}
+
+.th-button-medium {
+  width: 80px;
+  height: 80px;
+  font-size: 40px;
+}
+
+.th-button-large {
+  width: 160px;
+  height: 160px;
+  font-size: 88px;
+  border-radius: 44px;
+}
+
+.th-ui-standard .th-button-medium {
+  height: 92px;
+}
+
+.th-button-label {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.th-button-icon {
+  line-height: 1;
+}
+
+.th-badge {
+  position: absolute;
+  right: -6px;
+  bottom: -6px;
+  min-width: 28px;
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: #2d3b23;
+  color: white;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.th-panel-backdrop {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background: #0003;
+  padding: 16px;
+}
+
+.th-panel {
+  width: min(720px, 100%);
+  max-height: calc(100dvh - 32px);
+  overflow: auto;
+  background: #fffaf0;
+  border-radius: 32px;
+  padding: 16px 20px 24px;
+  box-shadow: 0 10px 0 #0002;
+}
+
+.th-panel-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.th-panel-head h2 {
+  margin: 0;
+  font-size: 26px;
+}

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>Treehouse</title>
+  <rect width="512" height="512" fill="#bfe6ff"/>
+  <rect y="400" width="512" height="112" fill="#9bd67f"/>
+  <rect x="226" y="270" width="60" height="160" rx="12" fill="#8a5a35"/>
+  <circle cx="256" cy="200" r="130" fill="#5fae4b"/>
+  <circle cx="180" cy="250" r="80" fill="#6cbf57"/>
+  <circle cx="332" cy="250" r="80" fill="#6cbf57"/>
+  <rect x="196" y="215" width="120" height="80" rx="10" fill="#c98b52"/>
+  <polygon points="186,220 256,165 326,220" fill="#b0412e"/>
+  <rect x="242" y="245" width="28" height="50" rx="4" fill="#5a3a20"/>
+</svg>

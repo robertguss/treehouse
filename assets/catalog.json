@@ -1,0 +1,692 @@
+{
+  "license": "All packs by Quaternius (quaternius.com), CC0 1.0 public domain.",
+  "packs": {
+    "crops": {
+      "name": "Ultimate Crops Pack",
+      "page": "https://quaternius.com/packs/ultimatecrops.html",
+      "driveFolder": "1uhbi-NWp7pwqOGtraBZurbphyxAvoABZ"
+    },
+    "nature": {
+      "name": "Ultimate Nature Pack",
+      "page": "https://quaternius.com/packs/ultimatenature.html",
+      "driveFolder": "1-Kl0L_Jg8awbh0S5T-z3zxh4mVlnxTpa"
+    },
+    "character": {
+      "name": "Ultimate Animated Character Pack",
+      "page": "https://quaternius.com/packs/ultimatedanimatedcharacter.html",
+      "driveFolder": "1sNi1AfenfPRrvRt5yfaj5QMMd6KKcUJ5"
+    },
+    "interior": {
+      "name": "Ultimate House Interior Pack",
+      "page": "https://quaternius.com/packs/ultimatehomeinterior.html",
+      "driveFolder": "1SNK9PwPi8xqqxmpU5xEZeiQjB26C1oX6"
+    },
+    "farmanimal": {
+      "name": "Farm Animal Pack",
+      "page": "https://quaternius.com/packs/farmanimal.html",
+      "driveFolder": "1is1ax2V0mIEDS7BbbzBV_x2Pabya1dVJ"
+    }
+  },
+  "colorBoost": {
+    "scale": 3,
+    "maxChannel": 0.85
+  },
+  "keepClips": {
+    "characters/": [
+      "Idle",
+      "Walk",
+      "Run",
+      "PickUp",
+      "Victory",
+      "Jump",
+      "SitDown",
+      "Walk_Carry",
+      "Run_Carry"
+    ],
+    "animals/": ["Idle", "Walk", "Jump", "Run", "WalkSlow"]
+  },
+  "models": [
+    {
+      "id": "animals/cow",
+      "pack": "farmanimal",
+      "source": "farmanimal/Blends/Cow.blend",
+      "scale": 0.28
+    },
+    {
+      "id": "animals/sheep",
+      "pack": "farmanimal",
+      "source": "farmanimal/Blends/Sheep.blend",
+      "scale": 0.27
+    },
+    {
+      "id": "animals/pig",
+      "pack": "farmanimal",
+      "source": "farmanimal/Blends/Pig.blend",
+      "scale": 0.175
+    },
+    {
+      "id": "animals/horse",
+      "pack": "farmanimal",
+      "source": "farmanimal/Blends/Horse.blend",
+      "scale": 0.29
+    },
+    {
+      "id": "animals/llama",
+      "pack": "farmanimal",
+      "source": "farmanimal/Blends/Llama.blend",
+      "scale": 0.38
+    },
+    {
+      "id": "animals/pug",
+      "pack": "farmanimal",
+      "source": "farmanimal/Blends/Pug.blend",
+      "scale": 0.65
+    },
+    {
+      "id": "characters/casual_male",
+      "pack": "character",
+      "source": "character/glTF/Casual_Male.gltf",
+      "drive": "1rrj82IYNaSWj5ySxR6fW9oojyHFiW7_r"
+    },
+    {
+      "id": "characters/casual_female",
+      "pack": "character",
+      "source": "character/glTF/Casual_Female.gltf",
+      "drive": "1E79ks2jbMt5iIrI8Ag9lRgA0VRnfU4pk"
+    },
+    {
+      "id": "characters/casual2_male",
+      "pack": "character",
+      "source": "character/glTF/Casual2_Male.gltf",
+      "drive": "1L2h3GVVJxa-_8sHnqOL-g4n7fQlD-Fdm"
+    },
+    {
+      "id": "characters/casual2_female",
+      "pack": "character",
+      "source": "character/glTF/Casual2_Female.gltf",
+      "drive": "1ou-CadwWpR_ita6L96e169IrVUFCqWBN"
+    },
+    {
+      "id": "characters/casual3_male",
+      "pack": "character",
+      "source": "character/glTF/Casual3_Male.gltf",
+      "drive": "1lu0NtOCZ8KAM3R9HU1spzWzqdK-_Fn-H"
+    },
+    {
+      "id": "characters/casual3_female",
+      "pack": "character",
+      "source": "character/glTF/Casual3_Female.gltf",
+      "drive": "1fjKYtYFGqBsfgCwRxRc3Zp4blfxXFSRu"
+    },
+    {
+      "id": "characters/worker_male",
+      "pack": "character",
+      "source": "character/glTF/Worker_Male.gltf",
+      "drive": "10TWw1W-6aa4KmwKbQYewSG4-m67_4nof"
+    },
+    {
+      "id": "characters/worker_female",
+      "pack": "character",
+      "source": "character/glTF/Worker_Female.gltf",
+      "drive": "1rnm-vJlpnt0QFKOzwbV1-wUQKaFxJ-1T"
+    },
+    {
+      "id": "crops/carrot_1",
+      "pack": "crops",
+      "source": "crops/Blends/Carrot_1.blend",
+      "drive": "1MuSEFhRMn8bnnnhgkn7qWyKwSUNXu6a7"
+    },
+    {
+      "id": "crops/carrot_2",
+      "pack": "crops",
+      "source": "crops/Blends/Carrot_2.blend",
+      "drive": "1dIIdUkTcAkNrkHM7SX7as1FvRk3fI0aN"
+    },
+    {
+      "id": "crops/carrot_3",
+      "pack": "crops",
+      "source": "crops/Blends/Carrot_3.blend",
+      "drive": "1TuLnr7t99C3kXSu0lV1D6CPAptG9YjQy"
+    },
+    {
+      "id": "crops/carrot_4",
+      "pack": "crops",
+      "source": "crops/Blends/Carrot_4.blend",
+      "drive": "1ye26CHDlx-4Y9xcH1L1Vu0KiZ1W8K0_l"
+    },
+    {
+      "id": "items/carrot",
+      "pack": "crops",
+      "source": "crops/Blends/Carrot_Crop.blend",
+      "drive": "11cQfqqbV6Zt44561Lv154-iqzbb_e11O"
+    },
+    {
+      "id": "crops/lettuce_1",
+      "pack": "crops",
+      "source": "crops/Blends/Lettuce_1.blend",
+      "drive": "1nCdfOjBmrQNKou1TUkd8d8nhFZdIvihS"
+    },
+    {
+      "id": "crops/lettuce_2",
+      "pack": "crops",
+      "source": "crops/Blends/Lettuce_2.blend",
+      "drive": "1CfFYjhF9jM69J1kF_WeQCSJnUD5874AA"
+    },
+    {
+      "id": "crops/lettuce_3",
+      "pack": "crops",
+      "source": "crops/Blends/Lettuce_3.blend",
+      "drive": "19F7jiXSXXYADXSTQtOJbSegoMy8NrMdg"
+    },
+    {
+      "id": "crops/lettuce_4",
+      "pack": "crops",
+      "source": "crops/Blends/Lettuce_4.blend",
+      "drive": "1d-NBn3SBCT_hljSH8LFrSJti9_EAZH9e"
+    },
+    {
+      "id": "items/lettuce",
+      "pack": "crops",
+      "source": "crops/Blends/Lettuce_Crop.blend",
+      "drive": "1LiB5VVAypwJvVb2S4PD6tmXDsm1LJ4TW"
+    },
+    {
+      "id": "crops/tomato_1",
+      "pack": "crops",
+      "source": "crops/Blends/Tomato_1.blend",
+      "drive": "1mcDUzCN5_G3x-F8IJ4mVQooxF25GvajC"
+    },
+    {
+      "id": "crops/tomato_2",
+      "pack": "crops",
+      "source": "crops/Blends/Tomato_2.blend",
+      "drive": "19aKgnTwGg-RBme3OSq50DtiE_uU16yUf"
+    },
+    {
+      "id": "crops/tomato_3",
+      "pack": "crops",
+      "source": "crops/Blends/Tomato_3.blend",
+      "drive": "1NMWNC7Pj6bwUYdc1oCAH5n_bvNyd4t4z"
+    },
+    {
+      "id": "crops/tomato_4",
+      "pack": "crops",
+      "source": "crops/Blends/Tomato_4.blend",
+      "drive": "1IepyxbLJcyDyFHhDCPmW0WByj-ZsYcI8"
+    },
+    {
+      "id": "items/tomato",
+      "pack": "crops",
+      "source": "crops/Blends/Tomato_Crop.blend",
+      "drive": "1ihwpQgMFxdgM6QQmVGVogPT_7Io08QMk"
+    },
+    {
+      "id": "crops/corn_1",
+      "pack": "crops",
+      "source": "crops/Blends/Corn_1.blend",
+      "drive": "1Tu8FrsmRL6i5U7ZmWGjEDxTWGogTd8Do"
+    },
+    {
+      "id": "crops/corn_2",
+      "pack": "crops",
+      "source": "crops/Blends/Corn_2.blend",
+      "drive": "1dj2yPhrDKMP7MjwGaf4d20ISXMgkpVj-"
+    },
+    {
+      "id": "crops/corn_3",
+      "pack": "crops",
+      "source": "crops/Blends/Corn_3.blend",
+      "drive": "1CaBT3VyH3V8znx6ovrwc55XIW2-b5PUe"
+    },
+    {
+      "id": "crops/corn_4",
+      "pack": "crops",
+      "source": "crops/Blends/Corn_4.blend",
+      "drive": "1kreRG7lAfebXV8dBhSS0IZkWZz3E-ZIr"
+    },
+    {
+      "id": "items/corn",
+      "pack": "crops",
+      "source": "crops/Blends/Corn_Crop.blend",
+      "drive": "1OY0-7GnxjXb9LgF8EtDT2uIaIE3CV3R3"
+    },
+    {
+      "id": "crops/pumpkin_1",
+      "pack": "crops",
+      "source": "crops/Blends/Pumpkin_1.blend",
+      "drive": "1JXpw9y8q-uBNthIYiQ3PhT-Q7f8tuEwp"
+    },
+    {
+      "id": "crops/pumpkin_2",
+      "pack": "crops",
+      "source": "crops/Blends/Pumpkin_2.blend",
+      "drive": "1SOVzG9sP2Q814MDrtg18DwJOy6GRRRFH"
+    },
+    {
+      "id": "crops/pumpkin_3",
+      "pack": "crops",
+      "source": "crops/Blends/Pumpkin_3.blend",
+      "drive": "1UvPQVoUMWRdzegyosleyoxrPsfhSez3s"
+    },
+    {
+      "id": "crops/pumpkin_4",
+      "pack": "crops",
+      "source": "crops/Blends/Pumpkin_4.blend",
+      "drive": "1_H-_8FThleXRDsOVuih879_b3Et-nMer"
+    },
+    {
+      "id": "items/pumpkin",
+      "pack": "crops",
+      "source": "crops/Blends/Pumpkin_Crop.blend",
+      "drive": "15-3NJAdf7KXkDVe0JtjRXa7s0XGHHIKI"
+    },
+    {
+      "id": "crops/watermelon_1",
+      "pack": "crops",
+      "source": "crops/Blends/Watermelon_1.blend",
+      "drive": "19QQg1J1CncvmeVaga1pzE8Wp0cbcTEez"
+    },
+    {
+      "id": "crops/watermelon_2",
+      "pack": "crops",
+      "source": "crops/Blends/Watermelon_2.blend",
+      "drive": "1wmP01G9oLkHAxsNX03IAaqvTMSGW9gUs"
+    },
+    {
+      "id": "crops/watermelon_3",
+      "pack": "crops",
+      "source": "crops/Blends/Watermelon_3.blend",
+      "drive": "1LQIeqUdKMum01dLINTrGHr3BKX5hKJCA"
+    },
+    {
+      "id": "crops/watermelon_4",
+      "pack": "crops",
+      "source": "crops/Blends/Watermelon_4.blend",
+      "drive": "1itK_70YnYJQxxTbUXdrb4ENsI2Qss3gz"
+    },
+    {
+      "id": "items/watermelon",
+      "pack": "crops",
+      "source": "crops/Blends/Watermelon_Crop.blend",
+      "drive": "1zTcrVAMlgTJIQxBJAzdlczppMmeqwxs0"
+    },
+    {
+      "id": "trees/apple",
+      "pack": "crops",
+      "source": "crops/Blends/Apple_4.blend",
+      "drive": "1M1pA1TBhuuma6_Ks1eK1LwCodKDn7X5D"
+    },
+    {
+      "id": "trees/apple_bare",
+      "pack": "crops",
+      "source": "crops/Blends/Apple_Harvested.blend",
+      "drive": "1M_jME1FmE_x0Ce5NIWHS638cvrlvatXW"
+    },
+    {
+      "id": "items/apple",
+      "pack": "crops",
+      "source": "crops/Blends/Apple_Crop.blend",
+      "drive": "1yervc2J-opzLum9yQeBpvVu1X0fqbpa5"
+    },
+    {
+      "id": "trees/orange",
+      "pack": "crops",
+      "source": "crops/Blends/Orange_4.blend",
+      "drive": "1hV5mEKtLTNK2nwyW4B6wJtcqsmecA8gE"
+    },
+    {
+      "id": "trees/orange_bare",
+      "pack": "crops",
+      "source": "crops/Blends/Orange_Harvested.blend",
+      "drive": "1kQQF4DY7q0SAEcZq0hFhb1zM-hhqNNt1"
+    },
+    {
+      "id": "items/orange",
+      "pack": "crops",
+      "source": "crops/Blends/Orange_Crop.blend",
+      "drive": "1FQry1dXuPQtPYKbWG0yFiJ8kNjPrrWGc"
+    },
+    {
+      "id": "nature/tree_1",
+      "pack": "nature",
+      "source": "nature/Blends/CommonTree_1.blend",
+      "drive": "1gTeHYxmHtKUFx_UR6XB-O5Lgg_AXF1NW"
+    },
+    {
+      "id": "nature/tree_2",
+      "pack": "nature",
+      "source": "nature/Blends/CommonTree_2.blend",
+      "drive": "1T-I2bOQbV_gVDYvtSAMyxGRgXvTpr9at"
+    },
+    {
+      "id": "nature/tree_3",
+      "pack": "nature",
+      "source": "nature/Blends/CommonTree_3.blend",
+      "drive": "1g2Ms77FxDaqsKz9pB6s2gOTSp0ugpV0B"
+    },
+    {
+      "id": "nature/tree_4",
+      "pack": "nature",
+      "source": "nature/Blends/CommonTree_4.blend",
+      "drive": "19y9oF-ZtDblBaNA6a8y2pk2dIKRl_MMx"
+    },
+    {
+      "id": "nature/tree_5",
+      "pack": "nature",
+      "source": "nature/Blends/CommonTree_5.blend",
+      "drive": "1AqqHulbrf_AR4j-MVlSdK9fMp8v7G7Qb"
+    },
+    {
+      "id": "nature/birch_1",
+      "pack": "nature",
+      "source": "nature/Blends/BirchTree_1.blend",
+      "drive": "1T0ylZ4MdV191RLgJ8x12CXJvaOyHNLEN"
+    },
+    {
+      "id": "nature/birch_2",
+      "pack": "nature",
+      "source": "nature/Blends/BirchTree_2.blend",
+      "drive": "18MQFPJH_Cy1FdiNzrFnaunJ0-pZUrdw-"
+    },
+    {
+      "id": "nature/pine_1",
+      "pack": "nature",
+      "source": "nature/Blends/PineTree_1.blend",
+      "drive": "1c5vLMiTeN59-9kFmSTKuyhLXwUJBnzf0"
+    },
+    {
+      "id": "nature/pine_2",
+      "pack": "nature",
+      "source": "nature/Blends/PineTree_2.blend",
+      "drive": "12nU7WLqgOzva8UcspDOvqz8APUpuuQFv"
+    },
+    {
+      "id": "nature/pine_3",
+      "pack": "nature",
+      "source": "nature/Blends/PineTree_3.blend",
+      "drive": "1F3EdSLkntp48TP_WG5aBdjlcYUBX67hi"
+    },
+    {
+      "id": "nature/willow",
+      "pack": "nature",
+      "source": "nature/Blends/Willow_1.blend",
+      "drive": "1rWaiZTZo_Y8br6do8OabIAxm5OFEso2b"
+    },
+    {
+      "id": "nature/bush_1",
+      "pack": "nature",
+      "source": "nature/Blends/Bush_1.blend",
+      "drive": "1YXRGgG1Pg1qIXLMOhSNtlrtPDxYcU3G6"
+    },
+    {
+      "id": "nature/bush_2",
+      "pack": "nature",
+      "source": "nature/Blends/Bush_2.blend",
+      "drive": "1x476mm5ljGNxg59mlM3HvgmMmAJw14el"
+    },
+    {
+      "id": "nature/bush_berries",
+      "pack": "nature",
+      "source": "nature/Blends/BushBerries_1.blend",
+      "drive": "10elR-y5dEVh3UzpITq4gaLf7cJLdX7Yl"
+    },
+    {
+      "id": "nature/rock_1",
+      "pack": "nature",
+      "source": "nature/Blends/Rock_1.blend",
+      "drive": "1fCWVHjQQ7LcqW2rqgQ7srkzjXUY3WJeA"
+    },
+    {
+      "id": "nature/rock_2",
+      "pack": "nature",
+      "source": "nature/Blends/Rock_2.blend",
+      "drive": "1rkRvrubHHU-WePuD_CLII9M9o1S58U81"
+    },
+    {
+      "id": "nature/rock_3",
+      "pack": "nature",
+      "source": "nature/Blends/Rock_3.blend",
+      "drive": "1Axw2z4WU95r92vwISynQbof0WxXu48Q7"
+    },
+    {
+      "id": "nature/rock_4",
+      "pack": "nature",
+      "source": "nature/Blends/Rock_4.blend",
+      "drive": "165dXzV5RaYaZn9WcD7cvNkpV1EF9yqxF"
+    },
+    {
+      "id": "nature/rock_moss_1",
+      "pack": "nature",
+      "source": "nature/Blends/Rock_Moss_1.blend",
+      "drive": "1jCulkBVgCRzwddP_NV1OQ3y7GKnDM-pd"
+    },
+    {
+      "id": "nature/rock_moss_2",
+      "pack": "nature",
+      "source": "nature/Blends/Rock_Moss_2.blend",
+      "drive": "1_OJAq_kzh6LdRCHBr2zOKcSolcdLa3nP"
+    },
+    {
+      "id": "nature/flowers",
+      "pack": "nature",
+      "source": "nature/Blends/Flowers.blend",
+      "drive": "1NJSN45VLhKYkDmB96RAOYkBNq4rfCMzZ"
+    },
+    {
+      "id": "nature/grass_1",
+      "pack": "nature",
+      "source": "nature/Blends/Grass.blend",
+      "drive": "1UyIlhfuE_YgxJjEJju3ZRS8Cbdpzx5s-"
+    },
+    {
+      "id": "nature/grass_2",
+      "pack": "nature",
+      "source": "nature/Blends/Grass_2.blend",
+      "drive": "1BzQl1Yhhg1qdw3PDfQDp_60q_qE46Tee"
+    },
+    {
+      "id": "nature/grass_short",
+      "pack": "nature",
+      "source": "nature/Blends/Grass_Short.blend",
+      "drive": "1r-4a-5gO_JhEbdfHJiB0M3oXlkNEfwyZ"
+    },
+    {
+      "id": "nature/plant_1",
+      "pack": "nature",
+      "source": "nature/Blends/Plant_1.blend",
+      "drive": "1nOaK2FUWtacVp7LSx_aMrTxu6cvgWS06"
+    },
+    {
+      "id": "nature/plant_2",
+      "pack": "nature",
+      "source": "nature/Blends/Plant_2.blend",
+      "drive": "18oAoArt-qg8I5GAKX1IhY4PYm8eI9It7"
+    },
+    {
+      "id": "nature/plant_3",
+      "pack": "nature",
+      "source": "nature/Blends/Plant_3.blend",
+      "drive": "1pXcNL9sTqFQDM0JSK0JnrG0UUosAqpwg"
+    },
+    {
+      "id": "nature/stump",
+      "pack": "nature",
+      "source": "nature/Blends/TreeStump.blend",
+      "drive": "1iMBn836WeKpyMqTxgjEzO0U5qy6VHqJT"
+    },
+    {
+      "id": "nature/log",
+      "pack": "nature",
+      "source": "nature/Blends/WoodLog.blend",
+      "drive": "1kjRrPjtnQPVYnIjy9uV0tcE8jyEXi2ky"
+    },
+    {
+      "id": "nature/lilypad",
+      "pack": "nature",
+      "source": "nature/Blends/Lilypad.blend",
+      "drive": "1j5J74ES9Ph86XcwP-d14ibFX-t5Kz4fj"
+    },
+    {
+      "id": "furniture/bed_single",
+      "pack": "interior",
+      "source": "interior/Blends/Bed_Single.blend",
+      "drive": "1bmX5qwFRsvhYjeA9uMi8RccRWQxwwPpT"
+    },
+    {
+      "id": "furniture/bed_king",
+      "pack": "interior",
+      "source": "interior/Blends/Bed_King.blend",
+      "drive": "1Mdm7iiyz713DN-cWEUg1QYIUCQT3NRgt"
+    },
+    {
+      "id": "furniture/bookshelf",
+      "pack": "interior",
+      "source": "interior/Blends/Bookshelf.blend",
+      "drive": "176wXSddOnhhgZY0VA6cgp8TzPww9v5EP"
+    },
+    {
+      "id": "furniture/carpet_round",
+      "pack": "interior",
+      "source": "interior/Blends/Carpet_Round.blend",
+      "drive": "1zZBmagod6-6NvwrY4E73RGH4qiSt8huq"
+    },
+    {
+      "id": "furniture/carpet",
+      "pack": "interior",
+      "source": "interior/Blends/Carpet_1.blend",
+      "drive": "1aBE01R5j6d2081qfNS7W5QPzeMOLCgFv"
+    },
+    {
+      "id": "furniture/chair",
+      "pack": "interior",
+      "source": "interior/Blends/Chair_1.blend",
+      "drive": "1VJDJ4NJudbV_rBpaTyH-S97PFHI1be2J"
+    },
+    {
+      "id": "furniture/chair_2",
+      "pack": "interior",
+      "source": "interior/Blends/Chair_2.blend",
+      "drive": "1EJHcsbO_k8_CiIA0zt5rfp63sGSOJGqP"
+    },
+    {
+      "id": "furniture/couch_small",
+      "pack": "interior",
+      "source": "interior/Blends/Couch_Small1.blend",
+      "drive": "1vmZ0m3re0vcrw86vpCmjF-vFWR4At4k8"
+    },
+    {
+      "id": "furniture/couch_medium",
+      "pack": "interior",
+      "source": "interior/Blends/Couch_Medium1.blend",
+      "drive": "1tWoGf0FGaNn1GQiljiXF9gFXZkdnSetk"
+    },
+    {
+      "id": "furniture/drawer",
+      "pack": "interior",
+      "source": "interior/Blends/Drawer_1.blend",
+      "drive": "1ZTKXeeW3aqjSX2rdktrJJbe5ukpBlTeG"
+    },
+    {
+      "id": "furniture/fireplace",
+      "pack": "interior",
+      "source": "interior/Blends/Fireplace.blend",
+      "drive": "1LA7eyhBq1fK2Q7YMNlsGCm_PtHIY4Sib"
+    },
+    {
+      "id": "furniture/houseplant_1",
+      "pack": "interior",
+      "source": "interior/Blends/Houseplant_1.blend",
+      "drive": "1_eHZS--nlDnUDI5nRu73JpMeHGxvCjEa"
+    },
+    {
+      "id": "furniture/houseplant_2",
+      "pack": "interior",
+      "source": "interior/Blends/Houseplant_2.blend",
+      "drive": "1QZSPV-MfFxShBERvP7Q0jTJ3TESItsZe"
+    },
+    {
+      "id": "furniture/houseplant_3",
+      "pack": "interior",
+      "source": "interior/Blends/Houseplant_3.blend",
+      "drive": "1QpDvGefK2pQ0BAbx1kVaAiXAW10e4Vir"
+    },
+    {
+      "id": "furniture/houseplant_4",
+      "pack": "interior",
+      "source": "interior/Blends/Houseplant_4.blend",
+      "drive": "1rLxBMJIHwErHFBuxyH9fGeOHXHLgb58d"
+    },
+    {
+      "id": "furniture/fridge",
+      "pack": "interior",
+      "source": "interior/Blends/Kitchen_Fridge.blend",
+      "drive": "18ZZ1MRezpm-v8FXpssseKXV552gUO9oQ"
+    },
+    {
+      "id": "furniture/oven",
+      "pack": "interior",
+      "source": "interior/Blends/Kitchen_Oven.blend",
+      "drive": "18dipBzzGvsnDFVgZm3zKQ5KxrcIUq4zN"
+    },
+    {
+      "id": "furniture/floor_lamp",
+      "pack": "interior",
+      "source": "interior/Blends/Light_Floor1.blend",
+      "drive": "1cWmPvNz7rHl5sDxOnvHEKMbjQUc9E07I"
+    },
+    {
+      "id": "furniture/lamp_stand",
+      "pack": "interior",
+      "source": "interior/Blends/Light_Stand1.blend",
+      "drive": "1k-JmxhUgaNfL2IiCudpreN92oLxJBRPe"
+    },
+    {
+      "id": "furniture/nightstand",
+      "pack": "interior",
+      "source": "interior/Blends/NightStand_1.blend",
+      "drive": "18g74idfos5MhdzNVwZ1XM6q8JcFiDu0e"
+    },
+    {
+      "id": "furniture/shelf",
+      "pack": "interior",
+      "source": "interior/Blends/Shelf_1.blend",
+      "drive": "1aK1y-52_PlyMq3jhoIZFxv0iP4hbDr5u"
+    },
+    {
+      "id": "furniture/table_small",
+      "pack": "interior",
+      "source": "interior/Blends/Table_RoundSmall.blend",
+      "drive": "1BjLdMYtQXVX2Ch_D8Eb184qn3aIpTYb6"
+    },
+    {
+      "id": "furniture/table_large",
+      "pack": "interior",
+      "source": "interior/Blends/Table_RoundLarge.blend",
+      "drive": "1IrYiHdbA9y9MkGQO0qdbzk4PiJAYuiQS"
+    },
+    {
+      "id": "furniture/stool",
+      "pack": "interior",
+      "source": "interior/Blends/Stool.blend",
+      "drive": "1TEemW822NWUhMr9a_WoxOJ3zPmLGqfif"
+    },
+    {
+      "id": "furniture/window",
+      "pack": "interior",
+      "source": "interior/Blends/Window_Large1.blend",
+      "drive": "1MC8LTINP-UrrKSFWsFsqe8zOyLZE3ndL"
+    },
+    {
+      "id": "furniture/door",
+      "pack": "interior",
+      "source": "interior/Blends/Door_1.blend",
+      "drive": "1gumh5NeEXz05QSz23Z7ohjwc8ofpWBqg"
+    },
+    {
+      "id": "furniture/cube_lamp",
+      "pack": "interior",
+      "source": "interior/Blends/Light_Cube.blend",
+      "drive": "1V4qAanhl9WDQxsyuRk6xrR5JPhpEuORW"
+    }
+  ]
+}

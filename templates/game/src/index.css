@@ -1,0 +1,80 @@
+html,
+body,
+#root {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  overscroll-behavior: none;
+  background: #bfe6ff;
+  font-family: ui-rounded, "SF Pro Rounded", system-ui, sans-serif;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.splash {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  font-size: 120px;
+}
+
+.hearts {
+  font-size: 40px;
+  white-space: nowrap;
+  animation: hearts 1.2s ease-out forwards;
+}
+
+@keyframes hearts {
+  from {
+    transform: translateY(10px) scale(0.5);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-60px) scale(1.2);
+    opacity: 0;
+  }
+}
+
+.score,
+.mine {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 8px 20px;
+  border-radius: 999px;
+  background: #fffffff0;
+  box-shadow: 0 5px 0 #0002;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.score {
+  top: max(14px, env(safe-area-inset-top));
+}
+
+.mine {
+  bottom: max(20px, env(safe-area-inset-bottom));
+  font-size: 28px;
+}
+
+.online {
+  position: fixed;
+  top: max(12px, env(safe-area-inset-top));
+  left: calc(max(12px, env(safe-area-inset-left)) + 68px);
+  display: flex;
+  gap: 6px;
+}
+
+.online span {
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #fffffff0;
+  border: 4px solid;
+  font-size: 26px;
+}

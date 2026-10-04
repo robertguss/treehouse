@@ -1,0 +1,11 @@
+packages:
+  - packages/*
+  - games/*
+  - apps/*
+allowBuilds:
+  esbuild: true
+  lefthook: false
+  workerd: true
+minimumReleaseAgeExclude:
+  - immer@11.1.21
+  - '@cloudflare/workers-types@5.20261003.1'

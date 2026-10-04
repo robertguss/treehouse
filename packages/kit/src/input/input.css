@@ -1,0 +1,26 @@
+.th-controls {
+  position: fixed;
+  inset: 0;
+  touch-action: none;
+}
+
+.th-stick {
+  position: fixed;
+  width: 120px;
+  height: 120px;
+  margin: -60px 0 0 -60px;
+  border-radius: 50%;
+  background: #ffffff40;
+  border: 3px solid #ffffff90;
+  pointer-events: none;
+  display: grid;
+  place-items: center;
+}
+
+.th-stick-knob {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #ffffffd0;
+  box-shadow: 0 3px 0 #0003;
+}

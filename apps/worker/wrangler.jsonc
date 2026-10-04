@@ -1,0 +1,23 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  // Your site name: the URL becomes https://<name>.<account>.workers.dev. Set it with
+  // `pnpm site:name <name>`; deploys refuse to run while it is still "change-me".
+  "name": "change-me",
+  "main": "src/worker.ts",
+  "compatibility_date": "2026-10-01",
+  // Node's crypto (scrypt, HMAC) for the shared passcode code in apps/server/src/auth.ts.
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": true,
+  "assets": {
+    // Built by `pnpm build` at the repo root (launcher, games, and the model library).
+    "directory": "../../dist/site",
+    "binding": "ASSETS",
+    // Every request goes through the Worker first so the passcode gate covers the site.
+    "run_worker_first": true
+  },
+  "durable_objects": {
+    "bindings": [{ "name": "WORLDS", "class_name": "WorldRoom" }]
+  },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["WorldRoom"] }],
+  "observability": { "enabled": true }
+}

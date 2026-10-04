@@ -1,0 +1,66 @@
+{
+  "name": "@treehouse/kit",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./assets": "./src/assets/index.tsx",
+    "./audio": "./src/audio/index.ts",
+    "./game": "./src/game/index.ts",
+    "./input": "./src/input/index.tsx",
+    "./net": "./src/net/index.ts",
+    "./net/host": "./src/net/host.ts",
+    "./net/protocol": "./src/net/protocol.ts",
+    "./profile": "./src/profile/index.ts",
+    "./render": "./src/render/index.tsx",
+    "./room": "./src/room/index.ts",
+    "./save": "./src/save/index.ts",
+    "./shell": "./src/shell/index.tsx",
+    "./systems": "./src/systems/index.ts",
+    "./testing": "./src/testing/index.ts",
+    "./ui": "./src/ui/index.tsx"
+  },
+  "scripts": {
+    "typecheck": "tsc -p ."
+  },
+  "dependencies": {
+    "immer": "11.1.21",
+    "zod": "4.6.5",
+    "zustand": "5.0.15"
+  },
+  "devDependencies": {
+    "@react-three/drei": "10.7.9",
+    "@react-three/fiber": "9.8.1",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@types/three": "0.186.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "three": "0.186.1",
+    "vitest": "5.0.3"
+  },
+  "peerDependencies": {
+    "@react-three/drei": "10.7.9",
+    "@react-three/fiber": "9.8.1",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "three": "0.186.1"
+  },
+  "peerDependenciesMeta": {
+    "@react-three/drei": {
+      "optional": true
+    },
+    "@react-three/fiber": {
+      "optional": true
+    },
+    "react": {
+      "optional": true
+    },
+    "react-dom": {
+      "optional": true
+    },
+    "three": {
+      "optional": true
+    }
+  }
+}

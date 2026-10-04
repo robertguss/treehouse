@@ -1,0 +1,40 @@
+{
+  "members": [
+    {
+      "id": "grownup",
+      "name": "Grown-up",
+      "avatar": "🦊",
+      "color": "#e8743b",
+      "role": "grownup",
+      "input": "desktop",
+      "ui": "standard"
+    },
+    {
+      "id": "kid1",
+      "name": "Big Kid",
+      "avatar": "🐰",
+      "color": "#4f8fe8",
+      "role": "big-kid",
+      "input": "touch",
+      "ui": "kid"
+    },
+    {
+      "id": "kid2",
+      "name": "Middle Kid",
+      "avatar": "🐻",
+      "color": "#9b59d0",
+      "role": "middle-kid",
+      "input": "touch",
+      "ui": "kid"
+    },
+    {
+      "id": "kid3",
+      "name": "Little Kid",
+      "avatar": "🐥",
+      "color": "#f2b705",
+      "role": "little-kid",
+      "input": "touch",
+      "ui": "kid"
+    }
+  ]
+}

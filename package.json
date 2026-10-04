@@ -1,0 +1,42 @@
+{
+  "name": "treehouse",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@12.8.1",
+  "engines": {
+    "node": "24.20.0"
+  },
+  "scripts": {
+    "build": "rm -rf dist/site && pnpm -r --filter './apps/*' --filter './games/*' build && cp -r library dist/site/lib",
+    "typecheck": "tsc -p . && pnpm -r typecheck",
+    "lint": "biome check .",
+    "fix": "biome check --write .",
+    "test": "vitest run",
+    "e2e": "playwright test",
+    "verify": "pnpm typecheck && pnpm lint && pnpm test && pnpm build && pnpm e2e",
+    "verify:fast": "pnpm typecheck && pnpm lint && pnpm test",
+    "passcode:set": "node scripts/set-passcode.ts",
+    "sources:fetch": "./scripts/fetch-sources.sh",
+    "prepare": "lefthook install",
+    "assets:fetch": "node scripts/assets/fetch.ts",
+    "assets:build": "node scripts/assets/build.ts",
+    "new-game": "node scripts/new-game.ts",
+    "e2e:worker": "E2E_TARGET=worker playwright test",
+    "deploy:cf": "./scripts/deploy-cloudflare.sh",
+    "dev:server": "pnpm --filter @treehouse/server dev",
+    "site:name": "node scripts/site-name.ts",
+    "template:check": "./scripts/template-check.sh"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.15",
+    "@gltf-transform/core": "4.5.1",
+    "@gltf-transform/extensions": "4.5.1",
+    "@gltf-transform/functions": "4.5.1",
+    "@playwright/test": "1.63.0",
+    "@types/node": "24.19.1",
+    "lefthook": "2.1.16",
+    "meshoptimizer": "1.3.0",
+    "typescript": "7.0.2",
+    "vitest": "5.0.3"
+  }
+}
